@@ -9,9 +9,9 @@ async def fakeload(e):
 	bar = ""
 	count = 0
 	await e.edit("`[Инициализация взлома...]`")
-	sleep(3)
+	sleep(3000)
 	await e.edit("`[Запрос в базу...]`")
-	sleep(2)
+	sleep(2000)
 	for i in range(13):
 		for division in load:
 			space = " " * (12 - i)
