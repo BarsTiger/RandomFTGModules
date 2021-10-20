@@ -26,7 +26,7 @@ class TagAllMod(loader.Module):
             *[
                 message.respond(
                     tag + '\u2060'.join(chunk))
-                for chunk in list(chunks(users, 10))
+                for chunk in list(chunks(users, 100))
             ]
         )
 
